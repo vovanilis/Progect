@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoActivity">
+
+
+    <ImageView
+        android:id="@+id/fon"
+        android:layout_width="1500dp"
+        android:layout_height="1000dp"
+        android:src="@drawable/fon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/dog"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="-600dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Собака"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="-400dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Кошка"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/snake"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="-200dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Змея"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hamster"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="0dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Хомяк"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/parrot"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Попугай"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lizard"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="400dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Ящерица"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rabbit"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+
+        android:backgroundTint="@color/green"
+        android:text="Кролик"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
